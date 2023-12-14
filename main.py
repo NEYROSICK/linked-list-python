@@ -44,6 +44,9 @@ class LinkedListApp:
         self.root = root
         self.root.title("Linked List App")
 
+        # Задання фіксованих розмірів вікна
+        self.root.geometry("500x300")
+
         self.linked_list = LinkedList()
 
         self.label = tk.Label(root, text="Enter value:")
